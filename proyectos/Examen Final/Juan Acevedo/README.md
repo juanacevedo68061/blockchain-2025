@@ -99,13 +99,19 @@ Puedes usar directamente el contrato desplegado y funcional que ya contiene los 
    ```bash
    npm install
    ```
+   
+3. Crea un archivo `.env` con tu clave privada (La configuración de la red lo requiere):
 
-3. Ejecuta los tests:
+   ```env
+   PRIVATE_KEY="tu_clave_privada"
+   ```
+
+4. Ejecuta los tests:
    ```bash
    npx hardhat test
    ```
 
-4. Verifica la cobertura:
+5. Verifica la cobertura:
    ```bash
    npx hardhat coverage
    ```
