@@ -63,7 +63,12 @@ Puedes usar directamente el contrato desplegado y funcional que ya contiene los 
       Actualmente tiene mi clave, reemplázala por tu **dirección pública de MetaMask** (la que puedes copiar desde la parte superior de MetaMask).  
       ⚠️ No modifiques nada más en esos archivos.
 
-   2. Ejecuta los comandos:
+   2. Crea un archivo `.env` con tu clave privada (La configuración de la red lo requiere):
+      ```env
+      PRIVATE_KEY="tu_clave_privada"
+      ```
+      
+   3. Ejecuta los comandos:
       
       Si aun no lo hiciste, instala las dependencias:
       ```bash
